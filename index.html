@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/dollar.png" type="image/x-icon">
+    <title>Tragaperras</title>
+</head>
+
+<body>
+    <header id="cabecera">
+        <h1>¡Bienvenidos a la tragaperras de Ilerna!</h1>
+    </header>
+
+    <main id="monedas">
+        <table id="tablaMonedas">
+            <tr>
+                <th colspan="2" class="textoTabla">Introduce monedas</th>
+            </tr>
+            <tr>
+                <td><input type="number" id="inputMonedas"></td>
+                <td><input type="button" id="introducirMonedas" value="Introducir"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><span class="textoTabla">El número de monedas actual es de</span></td>
+            </tr>
+            <tr>
+                <td colspan="2"><span id="numeroTotal"></span></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="button" id="salir" value="Salir"></td>
+            </tr>
+        </table>
+    </main>
+    <div id="clear"></div>
+    <main id="tragaperras">
+        <div id="maquina">
+
+            <table id="tablaMaquina">
+                <tr>
+                    <td class="celda"><img id="slot1" src="assets/img/pingu.png" ></td>
+                    <td class="celda"><img id="slot2" src="assets/img/pingu.png" ></td>
+                    <td class="celda"><img id="slot3" src="assets/img/pingu.png" ></td>
+                    <td><img id="palanca" src="assets/img/palancaUP.png"></td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="historial">
+            <h2>Historial de movimientos</h2>
+            <ul id="listaMovimientos">
+
+            </ul>
+        </div>
+    </main>
+
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>

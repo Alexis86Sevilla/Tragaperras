@@ -1,0 +1,74 @@
+@font-face {
+  font-family: Game;
+  src: url(../fonts/Ch\ Games\ Black.otf);
+}
+
+@font-face {
+  font-family: Monster;
+  src: url(../fonts/Attack\ Of\ Monster.ttf);
+}
+
+body {
+  background-image: url(../img/random_grey_variations.png);
+}
+
+#cabecera {
+  text-align: center;
+  font-family: Monster;
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+}
+
+#introducirMonedas,
+#inputMonedas,
+#salir {
+  padding: 10px;
+  font-size: 1.25em;
+}
+
+#inputMonedas {
+  width: 165px;
+}
+
+.textoTabla {
+  font-size: 25px;
+}
+
+#monedas {
+  margin-top: 3%;
+  text-align: center;
+  color: white;
+}
+
+#numeroTotal {
+  font-size: 55px;
+}
+
+table {
+  margin: 0px auto;
+}
+
+.celda {
+  border: 1px solid white;
+}
+
+#tragaperras {
+  margin-top: 2%;
+}
+
+#tablaMonedas td {
+  padding: 5px;
+}
+
+#historial {
+  margin-top: 3%;
+  font-family: Game;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  list-style-position: inside;
+}
+
+img {
+  width: 300px;
+}
