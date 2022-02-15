@@ -4,9 +4,9 @@ Para esta actividad se pide implementar un simulador de máquina tragaperras imp
 
 La tragaperras tendrá la siguiente funcionalidad:
 
--Control sobre las monedas introducidas.
--Palanca para mostrar la tirada aleatoria.
--Tres pantallas para mostrar el resultado de la tirada.
--Un historial para mostrar el gasto y adquisición de monedas.
+-Control sobre las monedas introducidas. <br>
+-Palanca para mostrar la tirada aleatoria. <br>
+-Tres pantallas para mostrar el resultado de la tirada. <br>
+-Un historial para mostrar el gasto y adquisición de monedas. <br>
 
 A fin de poder experimentar con JavaScript, la función de comparación hace uso de indexOf y getAttribute para comparar los resultados. Se puede realizar con un mismo método en lugar de dos.
